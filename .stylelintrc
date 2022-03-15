@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-standard-scss",
+    "stylelint-config-prettier"
+  ],
+  "plugins": [
+    "stylelint-csstree-validator",
+    "stylelint-prettier"
+  ],
+  "rules": {
+    "csstree/validator": {
+      "syntaxExtensions": ["sass"]
+    },
+    "no-descending-specificity": null,
+    "prettier/prettier": true
+  }
+}
